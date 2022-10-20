@@ -1,0 +1,14 @@
+const getQuery1 = `
+    SELECT * FROM todo
+    WHERE status LIKE '%${queries["status"]}%';`;
+
+    .......................
+
+    const getQuery2 = `
+          SELECT * FROM todo
+          WHERE priority LIKE '%${queries["priority"]}%';`;
+
+          .................
+          const getQuery3 = `
+          SELECT * FROM todo
+          WHERE todo LIKE '%${queries["search_q"]}%';`;
